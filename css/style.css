@@ -1,0 +1,31 @@
+body {
+    background-color: rgba(0, 144, 0, 0.517);
+    color: rgb(0, 0, 200);
+}
+
+header {
+text-align: center;
+border: 2px dashed;
+background-color: beige;
+}
+
+div p {
+    border: solid;
+}
+
+footer {
+    color: black;
+    border: 2px solid;
+    background-color: beige;
+    text-align: center;
+    padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 200px;
+    font-size: small;
+}
+
