@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(0, 144, 0, 0.517);
+    background-color: rgba(0, 144, 0, 0.497);
     color: rgb(0, 0, 200);
 }
 
@@ -7,11 +7,51 @@ header {
 text-align: center;
 border: 2px dashed;
 background-color: beige;
+padding: 10px;
+}
+
+h1, h2, h3, h4 {
+    font-size: 29pt;
 }
 
 div p {
     border: solid;
+    background-color: beige;
+    padding: 10px;
 }
+
+#workx {
+    border: 2px solid;
+    padding: 10px;
+    margin: 10px;
+    background-color: beige;
+}
+h2 {font-style: italic;}
+
+#workx ul li:nth-child(even) {
+    color: black;
+}
+
+h2, h3, h4 {
+    text-align: center;
+}
+
+#gallery {
+    border: 2px solid;
+    max-width: 100%;  
+}
+
+
+.flex-container {
+    display: flex;
+    word-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 400px;
+    font-size: 11pt;
+    text-align: left;
+}
+h4 {font-style: oblique;}
 
 footer {
     color: black;
@@ -20,12 +60,3 @@ footer {
     text-align: center;
     padding: 10px;
 }
-
-.flex-container {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    height: 200px;
-    font-size: small;
-}
-
